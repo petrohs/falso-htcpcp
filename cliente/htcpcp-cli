@@ -1,0 +1,13 @@
+#!/bin/bash
+
+caf=$(echo "$1" | cut -d: -f1)
+
+if [[ "$caf" == "cafe" ]]
+  then
+    echo "[418] Soy una tetera";
+  else
+    echo "[418] I'm a teapot";
+  fi
+
+#v0.0.0
+ exit 1;
